@@ -1,4 +1,4 @@
-body {
+html {
 	font-size: 62.5%;
 	font-family: 'Nanum Gothic', 'Quicksand', 'Merriweather', sans-serif;
 }
@@ -11,11 +11,11 @@ a {
 
 /*-------- resuseable ---- */
 button {
-	font-size: 1.2rem;
+	font-size: 1.7rem;
 	background: #33bfe0;
 	color: #fff;
-	padding: 4% 10%;
-	border-radius: 3px;
+	padding: 1.2rem 3rem;
+	border-radius: 5px;
 }
 
 
@@ -31,7 +31,7 @@ header img{
 .header-nav {
 	width: 80%;
 	margin: 0 auto;
-	font-size: 5vw;
+	font-size: 2.5rem;
 	list-style: none;
 	display: flex;
 	justify-content: space-around;

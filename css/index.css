@@ -14,13 +14,13 @@
 }
 .indexMain-title {
 	margin: 20% 0 7%;
-	font-size: 7vw;
+	font-size: 3.5rem;
 	font-family: 'Merriweather';
 	font-weight: 400;
 	word-spacing: 3px;
 }
 .indexMain-copy {
-	font-size: 1rem;
+	font-size: 1.5rem;
 	margin-bottom: 6%;
 	line-height: 180%;
 }
