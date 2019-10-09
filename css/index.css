@@ -1,0 +1,26 @@
+.index {
+	background-image: url("../resources/img/main-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+	background-size: 280vw;
+/* REVIEW: background-size: 280%;*/
+	height: 100vh;
+	color: #2e2d2d;
+}
+.indexMain {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+.indexMain-title {
+	margin: 20% 0 7%;
+	font-size: 7vw;
+	font-family: 'Merriweather';
+	font-weight: 400;
+	word-spacing: 3px;
+}
+.indexMain-copy {
+	font-size: 1rem;
+	margin-bottom: 6%;
+	line-height: 180%;
+}

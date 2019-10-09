@@ -1,0 +1,39 @@
+body {
+	font-size: 62.5%;
+	font-family: 'Nanum Gothic', 'Quicksand', 'Merriweather', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #2e2d2d;
+	cursor: pointer;
+}
+
+/*-------- resuseable ---- */
+button {
+	font-size: 1.2rem;
+	background: #33bfe0;
+	color: #fff;
+	padding: 4% 10%;
+	border-radius: 3px;
+}
+
+
+/*--------------------------*/
+
+
+/*--------- header----------*/
+header img{
+	display: block;
+	margin: 5% auto 7%;
+	width: 50%;
+}
+.header-nav {
+	width: 80%;
+	margin: 0 auto;
+	font-size: 5vw;
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+/*----------------------------*/
