@@ -13,7 +13,7 @@
 	text-align: center;
 }
 .indexMain-title {
-	margin: 20% 0 7%;
+	margin: 10vh 0 7vh;
 	font-size: 3.5rem;
 	font-family: 'Merriweather';
 	font-weight: 400;
@@ -21,6 +21,6 @@
 }
 .indexMain-copy {
 	font-size: 1.5rem;
-	margin-bottom: 6%;
+	margin-bottom: 6vh;
 	line-height: 180%;
 }
