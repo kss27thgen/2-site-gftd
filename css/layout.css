@@ -1,3 +1,6 @@
+/*---------------------------------------
+-----------0〜559px--------------
+-----------------------------------------*/
 html {
 	font-size: 62.5%;
 	font-family: 'Nanum Gothic', 'Quicksand', 'Merriweather', sans-serif;
@@ -18,13 +21,7 @@ button {
 	border-radius: 5px;
 	cursor: pointer;
 }
-
-
-/*--------------------------*/
-
-
 /*--------- header----------*/
-
 header img{
 	display: block;
 	margin: 5vh auto 4vh;
@@ -38,4 +35,28 @@ header img{
 	display: flex;
 	justify-content: space-around;
 }
-/*----------------------------*/
+
+
+/*---------------------------------------
+-----------560px〜959px--------------
+-----------------------------------------*/
+@media screen and (min-width: 560px) {
+	html { font-size: 90%; }
+	header { display:flex; }
+	/*---------- header ------*/
+	.header-nav {
+		width:80vw;
+		margin: 7vh 5vw 8vh 0;
+		display: flex;
+		justify-content: flex-end;
+		font-size: 1.2rem;
+		list-style: none; }
+	.header-nav li { margin-right: 4vh; }
+
+
+/*------------------------------------
+------------960px以上~-----------
+--------------------------------------*/
+@media screen and ( min-width: 960px) {
+	html { font-size: 100%; }
+}
