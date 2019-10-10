@@ -2,7 +2,7 @@
 	background-image: url("../resources/img/main-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
-	background-size: 280vw;
+	background-size: 300vw;
 /* REVIEW: background-size: 280%;*/
 	height: 100vh;
 	color: #2e2d2d;
@@ -13,14 +13,14 @@
 	text-align: center;
 }
 .indexMain-title {
-	margin: 6vh 0;
-	font-size: 3.5rem;
+	margin: 9vh 0 5vh;
+	font-size: 2.7rem;
 	font-family: 'Merriweather';
-	font-weight: 300;
+	font-weight: 400;
 	word-spacing: 4px;
 }
 .indexMain-copy {
-	font-size: 1.6rem;
+	font-size: 1.4rem;
 	margin-bottom: 5vh;
-	line-height: 180%;
+	line-height: 170%;
 }
