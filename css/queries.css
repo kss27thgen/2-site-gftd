@@ -17,18 +17,6 @@
 		font-size: 1.2rem;
 		list-style: none; }
 	.header-nav li { margin-right: 4vh; }
-/*-----------index------------*/
-	.index { background-size: cover; }
-	.indexMain-title {
-	margin: 9vh 0 5vh;
-	font-size: 3rem;
-	font-weight: 300;
-	word-spacing: 4px; }
-	.indexMain-copy {
-		font-size: 1rem;
-		letter-spacing: -0.8px }
-	.br { display: none }
-}
 
 /*------------------------------------
 ------------960px以上~-----------
