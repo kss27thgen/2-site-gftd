@@ -1,8 +1,10 @@
+/*---------------------------------------
+-----------0〜559px--------------
+-----------------------------------------*/
 html {
 	font-size: 62.5%;
 	font-family: 'Nanum Gothic', 'Quicksand', 'Merriweather', sans-serif;
 }
-
 a {
 	text-decoration: none;
 	color: #2e2d2d;
@@ -18,11 +20,6 @@ button {
 	border-radius: 5px;
 	cursor: pointer;
 }
-
-
-/*--------------------------*/
-
-
 /*--------- header----------*/
 header img{
 	display: block;
@@ -37,4 +34,28 @@ header img{
 	display: flex;
 	justify-content: space-around;
 }
-/*----------------------------*/
+
+
+/*---------------------------------------
+-----------560px〜959px--------------
+-----------------------------------------*/
+@media screen and (min-width: 560px) {
+	html { font-size: 90%; }
+	.header { display:flex; }
+	/*---------- header ------*/
+	.header-nav {
+		width:80vw;
+		margin: 7vh 5vw 5vh 0;
+		display: flex;
+		justify-content: flex-end;
+		font-size: 1.2rem;
+		list-style: none; }
+	.header-nav li { margin-right: 4vh; }
+
+
+/*----------------------------------
+------------960px以上~-----------
+--------------------------------------*/
+@media screen and ( min-width: 960px) {
+	html { font-size: 100%; }
+}
