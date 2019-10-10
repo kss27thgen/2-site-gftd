@@ -2,25 +2,25 @@
 	background-image: url("../resources/img/main-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
-	background-size: 280vw;
+	background-size: 300vw;
 /* REVIEW: background-size: 280%;*/
 	height: 100vh;
 	color: #2e2d2d;
 }
 .indexMain {
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 }
 .indexMain-title {
-	margin: 20% 0 7%;
-	font-size: 3.5rem;
+	margin: 9vh 0 5vh;
+	font-size: 2.7rem;
 	font-family: 'Merriweather';
 	font-weight: 400;
-	word-spacing: 3px;
+	word-spacing: 4px;
 }
 .indexMain-copy {
-	font-size: 1.5rem;
-	margin-bottom: 6%;
-	line-height: 180%;
+	font-size: 1.3rem;
+	margin-bottom: 5vh;
+	line-height: 170%;
 }
