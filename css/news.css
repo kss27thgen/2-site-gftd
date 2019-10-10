@@ -22,7 +22,7 @@
 /*------------main------------*/
 .news-upper {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	padding: 10vh 2vw 7vh;
 }
 .news-date {
@@ -32,7 +32,7 @@
 	background: #609cfc;
 	color: #FFF;
 	text-align: center;
-	font-size: 1.3rem;
+	font-size: 13px;
 }
 .news-date p:first-child {
 	padding: 10px 0;
@@ -40,7 +40,7 @@
 }
 .news-date p:last-child {
 	padding: 7px 0;
-	font-size: 0.8rem;
+	font-size: 8px;
 	
 }
 .news-title {
@@ -82,7 +82,7 @@ article {
 	font-size: 1.3rem;
 }
 .newsAside p {
-	margin: 1vh 0;
+	margin: 1vh 0 10vh;
 	font-size: 1.3rem;
 	text-indent: 1rem;
 }
@@ -93,18 +93,45 @@ article {
 	.newsHeader {
 		height: 32vh;
 		background-position: top;
-
 	}
 	.newsHeader h1 {
 		margin-top: 0;
 		font-size: 3rem;
 		letter-spacing: 0.3rem;
 	}
+	
 }
 
 /*------------------------------------
 ------------960px以上~-----------
 --------------------------------------*/
 @media screen and ( min-width: 960px) {
-	
+	.newsHeader {
+		height: 45vh;
+	}
+	.news-title {
+		margin-left: 2vw;
+	}
+	.news-date {
+		width: 100px;
+		height: 70px;
+		border-radius: 50%;
+		background: #609cfc;
+		color: #FFF;
+		text-align: center;
+		font-size: 13px;
+	}
+	.newsMain {
+		display: flex;
+		justify-content: space-between;
+	}
+	.newsMain article {
+		width: 50%;
+	}
+	.newsMain aside {
+		width: 20%;
+		margin-top: 5vh;
+	}
+
+	.newsMain 
 }
