@@ -1,34 +1,110 @@
 /*---------------------------------------
------------0 〜 659px--------------
+-----------0〜659px--------------
 -----------------------------------------*/
 
 /* ----------header-----------*/
 .newsHeader {
 	background-image: linear-gradient(rgba(255, 255, 255, 0.04), rgba(199, 196, 196, 0.61)), url("../resources/img/news-bg.jpg");
-  background-position: center;
+  background-position:center;
   background-repeat: no-repeat;
 	background-size: cover;
-	height: 50vh;
+	height: 40vh;
 	color: #484848;
 }
 .newsHeader h1 {
 	text-align: center;
-	margin-top: 8vh;
-	font-size: 5rem;
+	margin-top: 7vh;
+	font-size: 4rem;
 	font-weight: 300;
 	font-family: 'Merriweather';
 }
 
 /*------------main------------*/
+.news-upper {
+	display: flex;
+	justify-content: space-between;
+	padding: 10vh 2vw 7vh;
+}
+.news-date {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background: #609cfc;
+	color: #FFF;
+	text-align: center;
+	font-size: 1.3rem;
+}
+.news-date p:first-child {
+	padding: 10px 0;
+	border-bottom: #fff solid 1px;
+}
+.news-date p:last-child {
+	padding: 7px 0;
+	font-size: 0.8rem;
+	
+}
+.news-title {
+	margin: 0 auto;
+	width: 65vw;
+	font-size: 1.4rem;
+	font-family: serif;
+}
+article {
+	width: 95%;
+	margin: 0 auto;
+}
+.news-middle p {
+	margin: 5vh 0 10vh;
+	font-size: 1.4rem;
+	line-height: 180%;
+	text-indent: 1rem;
+}
+.news-middle img {
+	width: 100%;
+}
 
-
+.newsAside {
+	width: 90vw;
+	margin: 0 auto;
+}
+.newsAside h5 {
+	font-size: 2rem;
+	font-family: serif;
+	border-bottom: 2px solid #1eb0fd;
+	padding: 4vh 0 2vh;
+}
+.newsAside ul {
+	list-style: none;
+}
+.newsAside li {
+	padding: 0.8rem 0;
+	border-bottom: 1px solid #d8d8d8;
+	font-size: 1.3rem;
+}
+.newsAside p {
+	margin: 1vh 0;
+	font-size: 1.3rem;
+	text-indent: 1rem;
+}
 /*---------------------------------------
 -----------560px〜959px--------------
 -----------------------------------------*/
-.newsHeader h1 {
-}
+@media screen and (min-width: 560px) {
+	.newsHeader {
+		height: 32vh;
+		background-position: top;
 
+	}
+	.newsHeader h1 {
+		margin-top: 0;
+		font-size: 3rem;
+		letter-spacing: 0.3rem;
+	}
+}
 
 /*------------------------------------
 ------------960px以上~-----------
 --------------------------------------*/
+@media screen and ( min-width: 960px) {
+	
+}

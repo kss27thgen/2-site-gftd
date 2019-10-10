@@ -5,7 +5,6 @@ html {
 	font-size: 62.5%;
 	font-family: 'Nanum Gothic', 'Quicksand', 'Merriweather', sans-serif;
 }
-
 a {
 	text-decoration: none;
 	color: #2e2d2d;
@@ -42,11 +41,11 @@ header img{
 -----------------------------------------*/
 @media screen and (min-width: 560px) {
 	html { font-size: 90%; }
-	header { display:flex; }
+	.header { display:flex; }
 	/*---------- header ------*/
 	.header-nav {
 		width:80vw;
-		margin: 7vh 5vw 8vh 0;
+		margin: 7vh 5vw 5vh 0;
 		display: flex;
 		justify-content: flex-end;
 		font-size: 1.2rem;
@@ -54,7 +53,7 @@ header img{
 	.header-nav li { margin-right: 4vh; }
 
 
-/*------------------------------------
+/*----------------------------------
 ------------960px以上~-----------
 --------------------------------------*/
 @media screen and ( min-width: 960px) {
