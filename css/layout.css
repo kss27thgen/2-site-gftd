@@ -24,6 +24,9 @@ button {
 
 
 /*--------- header----------*/
+header a {
+	display: block;
+}
 header img{
 	display: block;
 	margin: 5vh auto 4vh;

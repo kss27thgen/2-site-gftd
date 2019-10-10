@@ -1,36 +1,38 @@
-/* iPad: 560 to 959px */
-@media only screen and (min-width: 560px) {
+
+
+
+
+/*---------------------------------------
+-----------560px〜959px--------------
+-----------------------------------------*/
+@media screen and (min-width: 560px) {
 	html { font-size: 90%; }
 	header { display:flex; }
-
 	/*---------- header ------*/
 	.header-nav {
 		width:80vw;
-		margin: 8vh 5vw 8vh 0;
+		margin: 7vh 5vw 8vh 0;
 		display: flex;
 		justify-content: flex-end;
 		font-size: 1.2rem;
 		list-style: none; }
 	.header-nav li { margin-right: 4vh; }
-/*-----------index-------------*/
+/*-----------index------------*/
 	.index { background-size: cover; }
 	.indexMain-title {
 	margin: 9vh 0 5vh;
 	font-size: 3rem;
 	font-weight: 300;
-	word-spacing: 4px;
-}
+	word-spacing: 4px; }
 	.indexMain-copy {
 		font-size: 1rem;
 		letter-spacing: -0.8px }
 	.br { display: none }
 }
-	
-	
-	
-/* PC: from 960px and more */
+
+/*------------------------------------
+------------960px以上~-----------
+--------------------------------------*/
 @media screen and ( min-width: 960px) {
 	html { font-size: 100%; }
-	
-	
 }
