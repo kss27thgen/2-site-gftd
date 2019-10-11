@@ -109,6 +109,9 @@ article {
 	.newsHeader {
 		height: 45vh;
 	}
+	.newsHeader h1 {
+		font-size: 4.2rem;
+	}
 	.news-title {
 		margin-left: 2vw;
 	}

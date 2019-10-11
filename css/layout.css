@@ -35,7 +35,19 @@ header img{
 	justify-content: space-around;
 }
 
-
+/*---------footer----------*/
+footer {
+	width: 100vw;
+	height: 8vh;
+	background: #863333;
+	text-align: center;
+}
+footer p {
+	width: 50%;
+	margin: 0 auto;
+	color: #fff;
+	padding-top: 3vh;
+}
 /*---------------------------------------
 -----------560px〜959px--------------
 -----------------------------------------*/
