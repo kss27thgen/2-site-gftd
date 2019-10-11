@@ -9,7 +9,7 @@
   background-repeat: no-repeat;
 	background-attachment:fixed;
 	background-size: cover;
-	height: 40vh;
+	height: 50vh;
 	color: #484848;
 }
 .newsHeader h1 {
@@ -136,6 +136,7 @@ article {
 		width: 20%;
 		margin-top: 5vh;
 	}
-
-	.newsMain 
+.newsAside h5 {
+	font-size: 1.5rem;
+}
 }
