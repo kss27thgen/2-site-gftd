@@ -1,8 +1,44 @@
 /*------------------------------
 -----------0 〜 659px--------------
 ---------------------------------*/
-
-
+.menuHeader {
+	background: gray url("../resources/img/menu-bg.jpg");
+	background-blend-mode: screen;
+  background-position:center;
+  background-repeat: no-repeat;
+	background-size: auto;
+	background-attachment:fixed;
+	height: 100vh;
+	color: #484848;
+}
+.menu-headContent {
+	width: 85Vw;
+	margin: 15vh auto 0;
+}
+.menu-headContent h1 {
+	text-align: center;
+	font-size: 3.5rem;
+	font-weight: 300;
+	font-family: 'Merriweather';
+	margin-bottom: 3vh;
+}
+.menu-headContent p {
+	font-size: 1.5rem;
+	line-height: 180%;
+}
+.menu-images {
+	width: 80vw;
+	margin: 0 auto;
+}
+.menu-image {
+	padding: 3vh 0;
+}
+.menu-image img {
+	width: 100%;
+}
+.menu-image:last-child {
+	margin-bottom: 10vh;
+}
 /*---------------------------------------
 -----------560px〜959px--------------
 -----------------------------------------*/
@@ -15,5 +51,12 @@
 ------------960px以上~-----------
 --------------------------------------*/
 @media screen and ( min-width: 960px) {
+	.menu-images {
+		display: grid;
+		grid-gap: 2rem;
+		grid-template-columns: 1.5fr 1fr 1fr 1fr;
+		grid-template-rows: 180px 100px 80px 120px auto;
+}
+	}
 	
 }

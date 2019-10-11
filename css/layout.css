@@ -23,7 +23,8 @@ button {
 /*--------- header----------*/
 header img{
 	display: block;
-	margin: 5vh auto 4vh;
+	margin: 0 auto;
+	padding: 4vh 0;
 	width: 50%;
 }
 .header-nav {
