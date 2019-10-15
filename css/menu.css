@@ -41,22 +41,27 @@
 }
 /*---------------------------------------
 -----------560px〜959px--------------
------------------------------------------*/
+--------------------------------------*/
 @media screen and (min-width: 560px) {
 	
 }
-
 
 /*------------------------------------
 ------------960px以上~-----------
 --------------------------------------*/
 @media screen and ( min-width: 960px) {
+	.menu-headContent {
+		width: 50Vw;
+	}
 	.menu-images {
 		display: grid;
 		grid-gap: 2rem;
-		grid-template-columns: 1.5fr 1fr 1fr 1fr;
-		grid-template-rows: 180px 100px 80px 120px auto;
-}
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: auto auto auto auto;
+	}
+	.menu1 {
+		grid-column: 1/3;
+		grid-row: 1/3;
 	}
 	
 }
