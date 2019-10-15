@@ -7,8 +7,9 @@
 	background-image: linear-gradient(rgba(255, 255, 255, 0.04), rgba(199, 196, 196, 0.61)), url("../resources/img/news-bg.jpg");
   background-position:center;
   background-repeat: no-repeat;
+	background-attachment:fixed;
 	background-size: cover;
-	height: 40vh;
+	height: 50vh;
 	color: #484848;
 }
 .newsHeader h1 {
@@ -135,6 +136,7 @@ article {
 		width: 20%;
 		margin-top: 5vh;
 	}
-
-	.newsMain 
+.newsAside h5 {
+	font-size: 1.5rem;
+}
 }
