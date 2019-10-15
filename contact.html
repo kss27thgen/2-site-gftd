@@ -9,8 +9,8 @@
 	<link rel="stylesheet" href="css/layout.css">
 	<link rel="stylesheet" href="css/contact.css">
 </head>
-<body>
-	<header>
+<body class="contact">
+	<header class="contactHeader">
 		<div class="header">
 			<a href="index.html"><img src="resources/img/logo.svg" alt="logo"></a>
 			<ul class="header-nav">
@@ -19,9 +19,30 @@
 				<li><a href="contact.html">CONTACT</a></li>
 			</ul>
 		</div>
+		<div class="contactHeader-content">
+			<h1>CONTACT</h1>
+			<form>
+				<dl>
+					<dt><label for="name">お名前</label></dt>
+					<dd><input type="text" id="name"></dd>
+				</dl>
+				<dl>
+					<dt><label for="email">メールアドレス</label></dt>
+					<dd><input type="text" id="email"></dd>
+				</dl>
+				<dl>
+					<dt><label for="message-box">メッセージ</label></dt>
+					<dd><textarea id="message-box"></textarea></dd>
+				</dl>
+				<button>送信</button>
+			</form>
+		</div>
 	</header>
-	<main>
-		<h1>contact</h1>
+	<main class="contact">
+	
 	</main>
+	<section>
+		
+	</section>
 </body>
 </html>

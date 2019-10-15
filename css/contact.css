@@ -1,14 +1,61 @@
 /*---------------------------------------
 -----------0 〜 659px--------------
 -----------------------------------------*/
-
-
-
+.contactHeader {
+	background: gray url("../resources/img/contact-bg.jpg");
+	background-blend-mode: screen;
+  background-position:center;
+/*  background-repeat: no-repeat;*/
+	background-size: auto;
+	background-attachment:fixed;
+	height: 100vh;
+	color: #484848;
+}
+.contactHeader-content {
+	margin: 5vh auto;
+	width: 80%;
+}
+.contactHeader-content h1 {
+	font-size: 2.8rem;
+	font-weight: 400;
+	font-family: 'Merriweather';
+	margin-bottom: 4vh;
+}
+.contactHeader-content dt {
+	font-size: 1.3rem;
+	margin: 2vh 0 1vh;
+}
+.contactHeader-content input {
+	width: 100%;
+	height: 6vh;
+	padding: 1vw;
+	background-color: rgba(255, 255, 255, 0.54);
+}
+.contactHeader-content textarea {
+	width: 100%;
+	height: 20vh;
+	padding: 2vw;
+	margin-bottom: 4vh;
+	background-color: rgba(255, 255, 255, 0.54);
+}
 /*---------------------------------------
 -----------560px〜959px--------------
 -----------------------------------------*/
 @media screen and (min-width: 560px) {
-	
+	.contact button {
+		font-size: 1.1rem;
+		padding: 0.8rem 1.5rem;
+	}
+	.contactHeader-content {
+		margin: 5vh 5vw;
+		width: 50%;
+	}
+	.contactHeader-content dt {
+		font-size: 1rem;
+	}
+	.contactHeader-content input {
+		width: 80%;
+	}
 }
 
 
@@ -16,5 +63,7 @@
 ------------960px以上~-----------
 --------------------------------------*/
 @media screen and ( min-width: 960px) {
-	
+	.contactHeader-content {
+		width: 30%;
+	}
 }
