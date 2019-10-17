@@ -55,7 +55,7 @@
 	}
 	.menu-images {
 		display: grid;
-		grid-gap: 2rem;
+		grid-gap: 1rem;
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-template-rows: auto auto auto auto;
 	}
