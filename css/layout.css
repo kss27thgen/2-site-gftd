@@ -4,6 +4,7 @@
 html {
 	font-size: 62.5%;
 	font-family: 'Nanum Gothic', 'Quicksand', 'Merriweather', sans-serif;
+	user-select: none;
 }
 a {
 	text-decoration: none;
